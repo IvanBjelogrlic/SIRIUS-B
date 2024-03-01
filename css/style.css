@@ -987,10 +987,10 @@ svg {
 	position: absolute;
 }
 #testimonial_area .owl-prev{
-	left: -60px;
+	left: -2%;
 }
 #testimonial_area .owl-next{
-	right: -60px;
+	right: -2%;
 }
 
 /* ----------------------------------------------------------------
