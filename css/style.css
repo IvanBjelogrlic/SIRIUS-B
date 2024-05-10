@@ -272,6 +272,16 @@ a:hover{
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
 }
+.navbar-brand{    
+    height: auto;  
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+.navbar-brand img{
+    width: auto; 
+    max-height: 70px;
+}
 .navbar-brand p{
     font-size: 30px;
     font-weight: 800;
@@ -280,6 +290,7 @@ a:hover{
     color: #fff;
 	font-family: 'Raleway', sans-serif;
 }
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: #fff;
 }
@@ -306,7 +317,7 @@ a:hover{
 	display:none;
 }
 .navbar-default.menu-shrink {
-    background-color: #fff;
+    background-color: #002D80;
     box-shadow: -1px 1px 1px rgba(20, 97, 255, 0.1);
     padding: 10px 0;
     width: 100%;
@@ -316,7 +327,7 @@ a:hover{
     color: #222;
 }
 .navbar-default.menu-shrink li a { 
-	color: #222!important; 
+	color: #ffffff!important; 
 	transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
